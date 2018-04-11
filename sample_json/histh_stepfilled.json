@@ -1,0 +1,14 @@
+{
+    "chart_id":"40",
+    "data":"sample_data/histh_stepfilled.csv",
+    "parameters": {
+        "title":"Our lab members' age",
+        "xlabel":"Rate",
+        "ylabel":"Range",
+        "num_bin":15,
+        "normed":1,
+        "alpha":0.5,
+        "color":"['red','pink']"
+    },
+    "output":"sample_img/histh_stepfilled.svg"
+}

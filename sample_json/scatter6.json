@@ -1,0 +1,11 @@
+{
+	"chart_id":"78",
+	"data":"sample_data/scatter6.csv",
+	"parameters": {
+		"title":"scatter plot",
+		"x":"total_bill",
+		"y":"day",
+		"hue":"time"
+	},
+	"output":"sample_img/scatter6.svg"
+}

@@ -1,0 +1,13 @@
+{
+	"chart_id":"rggplot2geomabline",
+	"data":"sample_data/geomdot.csv",
+	"parameters": {
+		"intercept":"37",
+		"slope":"-5",
+		"aes":{
+			"x":"wt",
+			"y":"mpg"
+		}
+	},
+	"output":"sample_img/output_geomabline.svg"
+}

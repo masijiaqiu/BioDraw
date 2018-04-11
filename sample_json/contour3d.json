@@ -1,0 +1,15 @@
+{
+	"chart_id":"13",
+	"data":"sample_data/contour3d.csv",
+	"parameters": {
+		"title":"Contour3d plot",
+		"xlabel":"X",
+		"ylabel":"Y",
+		"zlabel":"Height",
+		"rstride":10,
+		"cstride":10,
+		"alpha":0.5,
+		"color":"yellow"
+	},
+	"output":"sample_img/contour3d.svg"
+}

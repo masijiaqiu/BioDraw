@@ -1,0 +1,14 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"""
+This is a histogram line showing the lines of different lines in a graph. This is better used to compare the differences between the data sets.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"num_bin"=[positive integer] (Set the number of the bins to a certain integer.)
+"normed"=["True"|"False"] (Set true to set the total area of bins to 1. In this diagram, to achieve the best viewing result for the Gauss curve, this parameter must be "True" or enter a positive number.)
+"alpha"=[float] (Float 0.0 transparent through 1.0 opaque.)
+"color"=[string] (Setting the color for the parts. Must be written like "['color1','color2']". Optional)
+"linestyle"=['solid' | 'dashed', 'dashdot', 'dotted' | (offset, on-off-dash-seq) | '-' | '--' | '-.' | ':' | 'None' | ' ' | ''] (This is used to set the style of the line generated, whether is dotted or dashed or so on. Optional.)
+“line width”=[integer] (This is used to set the thickness of the lines while 1 is the thinnest. Optional.)

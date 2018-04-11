@@ -1,0 +1,10 @@
+{
+	"chart_id":"rggplot2geomdensity",
+	"data":"sample_data/diamonds.csv",
+	"parameters": {
+		"aes":{
+			"x":"carat"
+		}
+	},
+	"output":"sample_img/output_geomdensity.svg"
+}

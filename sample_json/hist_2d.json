@@ -1,0 +1,11 @@
+{
+    "chart_id":"48",
+    "data":"sample_data/hist2d.csv",
+    "parameters": {
+        "title":"Data in Groups",
+        "xlabel":"Sets",
+        "ylabel":"Figure",
+        "number_of_bins":60
+    },
+    "output":"sample_img/hist_2d.svg"
+}

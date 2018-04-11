@@ -1,0 +1,1 @@
+A radial tree, or radial map, is a method of displaying a tree structure (e.g., a tree data structure) in a way that expands outwards, radially. It is one of many ways to visually display a tree with examples extending back to the early 20th century.In use, it is a type of information graphic.

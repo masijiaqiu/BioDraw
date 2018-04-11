@@ -1,0 +1,14 @@
+{
+    "chart_id":"46",
+    "data":"sample_data/hist_age.csv",
+    "parameters": {
+        "title":"Data in Groups",
+        "xlabel":"Sets",
+        "ylabel":"Figure",
+        "number_of_bins":123,
+        "normed":"True",
+        "alpha":0.5,
+        "color":"'red','pink','violet'"
+    },
+    "output":"sample_img/multihist_side_by_side.svg"
+}

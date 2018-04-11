@@ -1,0 +1,26 @@
+{
+	"chart_id":"32",
+	"data":"sample_data/box_color.csv",
+	"parameters": {
+		"title":"box plot",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmeans":"True",
+		"showmedians":"True",
+		"meanline":"True",
+		"showcaps":"True",
+		"vert":"True",
+		"patch_artist":"True",
+		"showbox":"True",
+		"box_linestyle":"-",
+		"box_linewidth":2,
+		"box_color":"gray",
+		"median_linestyle":"-.",
+		"median_linewidth":1.5,
+		"median_color":"firebrick"
+	},
+	"output":"sample_img/box_color.svg"
+}

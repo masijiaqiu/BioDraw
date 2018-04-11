@@ -1,0 +1,17 @@
+{
+    "chart_id":"45",
+    "data":"sample_data/step_line.csv",
+    "parameters": {
+        "figsize":"(12,8)",
+        "title":"Data over time",
+        "xlabel":"Time",
+        "ylabel":"data",
+        "alpha":0.5,
+        "legend":"True",
+        "startingpoint":"[0,1,2,3]",
+        "endpoint":"[4,4,4,9]",
+        "color":"['red','pink','purple','violet']",
+        "where":"post"
+    },
+    "output":"sample_img/step_line.svg"
+}

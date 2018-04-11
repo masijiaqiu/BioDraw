@@ -1,0 +1,13 @@
+{
+	"chart_id":"70",
+	"data":"sample_data/violin_7.csv",
+	"parameters": {
+		"title":"horizontal violin plot",
+		"x":"orbital_period",
+		"y":"method",
+		"hue":"smoker",
+		"palette":"Set2",
+		"scale":"width"
+	},
+	"output":"sample_img/violin_7.svg"
+}

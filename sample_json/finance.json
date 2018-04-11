@@ -1,0 +1,14 @@
+{
+	"chart_id":"59",
+	"data":"sample_data/finance.csv",
+	"parameters": {
+		"title":"finance",
+		"figsize":"(10,5)",
+		"width":0.8,
+		"colorup":"red",
+		"colordown":"black",
+		"rotarion":45,
+		"horizontalalignment":"right"
+	},
+	"output":"sample_img/finance.svg"
+}

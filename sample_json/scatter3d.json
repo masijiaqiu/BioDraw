@@ -1,0 +1,15 @@
+{
+	"chart_id":"97",
+	"data":"sample_data/scatter3d.csv",
+	"parameters": {
+		"title": "The Example Graph of 3D scatterplot",
+    	"format": {
+        	"Group1": {"color": "r", "marker": "o"},
+       		"Group2": {"color": "b", "marker": "^"}
+     	},
+     	"x-label": "X Label",
+     	"y-label": "Y Label",
+     	"z-label": "Z Label"
+	},
+	"output":"sample_img/scatter3d.svg"
+}

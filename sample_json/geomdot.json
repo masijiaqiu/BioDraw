@@ -1,0 +1,13 @@
+{
+	"chart_id":"rggplot2geomdot",
+	"data":"sample_data/geomdot.csv",
+	"parameters": {
+		"binaxis":"y",
+		"stackdir":"center",
+		"aes":{
+			"x":1,
+			"y":"mpg"
+		}
+	},
+	"output":"sample_img/geomdot.svg"
+}

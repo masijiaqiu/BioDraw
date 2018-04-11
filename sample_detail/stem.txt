@@ -1,0 +1,12 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+This is a stem line and dot graph showing the distance between some given values and a base line. This is only valid for one set of number.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"markerface_color”=[String] (Set the color of the dots. Must be written as “color”, for example:”red”. Optional.)
+"baseline_color":=[String] (Set the color of the baseline. Must be written as “color”, for example:”red”. Optional.)
+"lw”=[integer] (Setting the width of the baseline. Optional.)
+"bottom”=[float] (Setting the baseline at any number you like. Defaultly set to 0. Optional.)

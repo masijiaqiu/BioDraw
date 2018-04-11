@@ -1,0 +1,1 @@
+Structued heatmap is often useful to combine heat maps with hierarchical clustering, which is a way of arranging items in a hierarchy based on the distance or similarity between them. The result of a clustering calculation is presented either as the distance or the similarity between the clustered items depending on the selected distance measure.

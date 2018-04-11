@@ -1,0 +1,12 @@
+{
+	"chart_id":"rggplot2geomvline",
+	"data":"sample_data/geomdot.csv",
+	"parameters": {
+		"xintercept":"5",
+		"aes":{
+			"x":"wt",
+			"y":"mpg"
+		}
+	},
+	"output":"sample_img/geomvline.svg"
+}

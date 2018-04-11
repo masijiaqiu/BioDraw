@@ -1,0 +1,8 @@
+{
+	"chart_id":"63",
+	"data":"sample_data/graymat.csv",
+	"parameters": {
+		"fignum":100
+	},
+	"output":"sample_img/graymat.svg"
+}

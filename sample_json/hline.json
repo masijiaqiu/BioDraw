@@ -1,0 +1,13 @@
+{
+    "chart_id":"56",
+    "data":"sample_data/age.csv",
+    "parameters": {
+        "title":"Comparison of ages",
+        "xlabel":"counts",
+        "ylabel":"age",
+        "lw":3,
+        "alpha":0.8,
+        "color":"['red','coral']"
+    },
+    "output":"sample_img/hline.svg"
+}

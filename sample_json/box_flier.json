@@ -1,0 +1,24 @@
+{
+	"chart_id":"33",
+	"data":"sample_data/box_flier.csv",
+	"parameters": {
+		"title":"box plot \n flier=True",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmeans":"False",
+		"showcaps":"True",
+		"vert":"True",
+		"filer_marker":"o",
+		"flier_linestyle":"-",
+		"box_linestyle":"-",
+		"box_linewidth":2,
+		"box_color":"midnightblue",
+		"flier_markeredgecolor":"indianred",
+		"flier_markerfacecolor":"darkorange",
+		"flier_markersize":12
+	},
+	"output":"sample_img/box_flier.svg"
+}

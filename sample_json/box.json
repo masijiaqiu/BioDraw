@@ -1,0 +1,24 @@
+{
+	"chart_id":"31",
+	"data":"sample_data/box.csv",
+	"parameters": {
+		"title":"box plot",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmeans":"True",
+		"meanline":"True",
+		"showcaps":"True",
+		"vert":"True",
+		"showbox":"True",
+		"box_linestyle":"-",
+		"box_linewidth":2,
+		"box_color":"midnightblue",
+		"median_linestyle":"-.",
+		"median_linewidth":1.5,
+		"median_color":"purple"
+	},
+	"output":"sample_img/box.svg"
+}

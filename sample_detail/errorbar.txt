@@ -1,0 +1,9 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"xerr"=0.5 [float](Horizontal errorbars are drawn relative to the data.)
+"yerr"=0.5 [float](Vertical errorbars are drawn relative to the data.)
+"color"="yellow" [string] (Any matplotlib color.)
+"marker"="o" [string](Set the line marker.)"ms"=8 [float](Set the marker size in points.) "ls"="dotted" [string](Set the linestyle of the line,also accepts drawstyles.)"lolims"="false" ["true"|"false"](Indicate that a value gives only lower limits.)"xlolims"="false" ["true"|"false"](Indicate that a value gives only lower limits.)"mec"="blue" [string](Set the marker edge color,accepting any matplotlib color.)"capsize"=2 [float](Set the length of the error bar caps in points)"capthick"=2 [float](Set the thickness of the error bar cap in points.)"barsabove"="false" ["true"|"false"](If true, will plot the errorbars above the plot symbols.)"linewidth"=2 [float](Set the line width in points.)

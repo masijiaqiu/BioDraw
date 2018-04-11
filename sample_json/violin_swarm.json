@@ -1,0 +1,12 @@
+{
+	"chart_id":"72",
+	"data":"sample_data/violin_swarm.csv",
+	"parameters": {
+		"title":"violin&swarm plot",
+		"x":"day",
+		"y":"total_bill",
+		"color":"w",
+		"alpha":"0.5"
+	},
+	"output":"sample_img/violin_swarm.svg"
+}

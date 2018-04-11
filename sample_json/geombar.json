@@ -1,0 +1,12 @@
+{
+	"chart_id":"rggplot2geombar",
+	"data":"sample_data/bar.csv",
+	"parameters": {
+		"stat":"identity",
+		"aes":{
+			"x":"people",
+			"y":"age"
+		}
+	},
+	"output":"sample_img/output_geombar.svg"
+}

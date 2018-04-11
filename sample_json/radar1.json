@@ -1,0 +1,12 @@
+{
+	"chart_id":"22",
+	"data":"sample_data/radar1.csv",
+	"parameters": {
+	    "frame":"circle",
+		"title":"Quality assessment",
+		"alpha":0.25,
+		"colors":"['#E8B601','#7AC3B1','#6B7E23','#E53135']",
+		"figsize":"(7,7)"
+	},
+	"output":"sample_img/radar1.svg"
+}

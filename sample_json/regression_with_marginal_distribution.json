@@ -1,0 +1,11 @@
+{
+	"chart_id":"100",
+	"data":"sample_data/regression_with_marginal_distribution.csv",
+	"parameters": {
+		"title": "Linear regression with marginal distributions",
+		"data_header": ["total_bill", "tip"],
+		"xlim": [0, 60],
+		"ylim": [0,12]
+	},
+	"output":"sample_img/regression_with_marginal_distribution.svg"
+}

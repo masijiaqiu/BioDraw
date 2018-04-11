@@ -1,0 +1,5 @@
+Type,HBRR2,UHRR3,HBRR1,UHRR1,UHRR2,HBRR3
+exonic&splicing,1,1,1,3,2,2
+splicing,16,11,11,29,26,18
+UTR5&UTR3,10,9,7,11,7,6
+up&downstream,55,37,44,76,91,81

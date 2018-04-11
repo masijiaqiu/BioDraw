@@ -1,0 +1,15 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+This is a graph showing the step lines of some data. for example, some data over time
+"""
+"figsize"="(12,8)" (Set the size of the figture, (x,y).)
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"alpha"=[float] (Float 0.0 transparent through 1.0 opaque.)
+“legend”=[“True”] (Only when set to true will the picture show a legend at the top right corner, this is to avoid blocking of part of the lines. Optional if you don’t need to tag the lines.)
+“starting point” = [string] (Marking the starting point of each of your strings, be sure you enter the same number of starting points as your data sets. Must.)
+“endpoint” = [string] (Marking the end point of each of your strings, be sure you enter the same number of starting points as your data sets. Must.)
+“color”=[string] (Setting the color for the cumulative step, this string must be written as “color”, for example: “[‘red’,’blue’,’green’]”. Optional.)
+“where” = [“pre”|”post”|”mid”] (Marking the time where you actually start calculation. Defaultly set to “pre”.)

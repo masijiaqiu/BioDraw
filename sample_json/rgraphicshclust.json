@@ -1,0 +1,8 @@
+{
+	"chart_id":"rgraphicshclust",
+	"data":"sample_data/mtcars.csv",
+	"parameters": {
+		"hang":-1
+	},
+	"output":"sample_img/output_geomviolin.svg"
+}

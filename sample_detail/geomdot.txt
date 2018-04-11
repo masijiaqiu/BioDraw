@@ -1,0 +1,17 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"""
+In a dot plot, the width of a dot corresponds to the bin width (or maximum width, depending on the binning algorithm), and dots are stacked, with each dot representing one observation.
+
+With dot-density binning, the bin positions are determined by the data and binwidth, which is the maximum width of each bin. 
+
+With histodot binning, the bins have fixed positions and fixed widths, much like a histogram.
+
+When binning along the x axis and stacking along the y axis, the numbers on y axis are not meaningful, due to technical limitations of ggplot2. You can hide the y axis, as in one of the examples, or manually scale it to match the number of dots.
+"""
+"binaxis"="x"[string](Which axis to bin along "x" (default) or "y".)
+"stackdir":"center"(which direction to stack the dots. "up" (default), "down", "center", "centerwhole" (centered, but with dots aligned).)
+"aes":{
+	"x":1,
+	"y":"mpg"
+}

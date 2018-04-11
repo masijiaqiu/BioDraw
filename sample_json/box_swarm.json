@@ -1,0 +1,12 @@
+{
+	"chart_id":"71",
+	"data":"sample_data/box_swarm.csv",
+	"parameters": {
+		"title":"box&swarm plot",
+		"x":"day",
+		"y":"total_bill",
+		"whis":1.5,
+		"width":0.7
+	},
+	"output":"sample_img/box_swarm.svg"
+}

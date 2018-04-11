@@ -1,0 +1,8 @@
+{
+	"chart_id":"36",
+	"data":"sample_data/barcode.csv",
+	"parameters": {
+		"title":"barcode \n"
+	},
+	"output":"sample_img/barcode.svg"
+}

@@ -1,0 +1,14 @@
+{
+	"chart_id":"38",
+	"data":"sample_data/hist.csv",
+	"parameters": {
+		"title":"Our lab members' age",
+		"xlabel":"range",
+		"ylabel":"Age",
+		"num_bin":15,
+		"normed":1,
+		"alpha":0.5,
+		"color":"pink"
+	},
+    "output":"sample_img/histogramh.svg"
+}

@@ -1,0 +1,10 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"""
+This is a radar chart. The demo radar image has 4 entities with 5 features.
+"""
+"title"=[string] (Set a title of the current axes.)
+"alpha"=1 [float] (Float 0.0 transparent through 1.0 opaque.)
+"color"="#108484" [string] (Any matplotlib color.)
+"figsize"="(8,6)" (Set he size of the figture, (x,y).)
+"linewidth"=2 (Width of the line, float.)

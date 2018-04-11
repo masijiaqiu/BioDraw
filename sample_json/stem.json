@@ -1,0 +1,14 @@
+{
+    "chart_id":"57",
+    "data":"sample_data/hist.csv",
+    "parameters": {
+        "title":"Lab Member's Age",
+        "xlabel":"Members",
+        "ylabel":"Age",
+        "markerface_color":"indigo",
+        "baseline_color":"lavender",
+        "lw":3,
+        "bottom":30
+    },
+    "output":"sample_img/stem.svg"
+}

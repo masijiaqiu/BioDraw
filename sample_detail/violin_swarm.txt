@@ -1,0 +1,15 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+* means varible is prerequiste.
+"""
+A violin plot plays a similar role as a box and whisker plot. It shows the distribution of quantitative data across several levels of one (or more) categorical variables such that those distributions can be compared. Unlike a box plot, in which all of the plot components correspond to actual datapoints, the violin plot features a kernel density estimation of the underlying distribution.
+A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. 
+This plot combines violin plot with scatter plot.
+
+"""
+"title"="violin&swarm plot"[string](Set title for figure.)
+*"x"=[name of variables in data](Inputs for plotting long-form data. Set the x-axis varible.)
+*"y"=[name of variables in data](Inputs for plotting long-form data. Set the y-axis varible.)
+"inner"=None["box"|"quartile"|"point"|"stick"|None](Representation of the datapoints in the violin interior. If box, draw a miniature boxplot. If quartiles, draw the quartiles of the distribution. If point or stick, show each underlying datapoint. Using None will draw unadorned violins.)
+"color"="w"[any matplotlib color](Set the color of swarm plot.)
+"alpha"=0.5[float (0.0 transparent through 1.0 opaque)]

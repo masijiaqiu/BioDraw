@@ -1,0 +1,14 @@
+{
+	"chart_id":"3",
+	"data":"sample_data/bargroup.csv",
+	"parameters": {
+		"title":"Past GPD in Contries",
+		"xlabel":"Years",
+		"ylabel":"Past GDP",
+		"width":0.6,
+		"alpha":0.8,
+		"figsize":"(8,6)",
+		"legend":"True"
+	},
+	"output":"sample_img/bargroup.svg"
+}

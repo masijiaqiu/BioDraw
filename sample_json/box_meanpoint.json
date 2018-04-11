@@ -1,0 +1,23 @@
+{
+	"chart_id":"36",
+	"data":"sample_data/box.csv",
+	"parameters": {
+		"title":"box plot\n mean as point",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmedians":"True",
+		"showcaps":"True",
+		"vert":"True",
+		"showbox":"True",
+		"median_linestyle":":",
+		"median_linewidth":2,
+		"median_color":"blueviolet",
+		"mean_marker":"D",
+		"mean_markeredgecolor":"orange",
+		"mean_markerfacecolor":"gold"
+	},
+	"output":"sample_img/box_meanpoint.svg"
+}

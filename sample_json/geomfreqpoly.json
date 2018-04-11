@@ -1,0 +1,12 @@
+{
+	"chart_id":"rggplot2geomfreqpoly",
+	"data":"sample_data/diamonds.csv",
+	"parameters": {
+		"binwidth":500,
+		"aes":{
+			"x":"price",
+			"colour":"cut"
+		}
+	},
+	"output":"sample_img/output_geomfreqpoly.svg"
+}

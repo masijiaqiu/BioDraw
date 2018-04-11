@@ -1,0 +1,13 @@
+{
+	"chart_id":"11",
+	"data":"sample_data/histsf.csv",
+	"parameters": {
+		"title":"Activity members' age",
+		"xlabel":"Age",
+		"ylabel":"percentage",
+		"num_bin":30,
+		"normed":1,
+		"alpha":0.5
+	},
+	"output":"sample_img/histsf.svg"
+}

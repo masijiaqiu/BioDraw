@@ -1,0 +1,11 @@
+{
+	"chart_id":"rggplot2geomhistogram",
+	"data":"sample_data/diamonds.csv",
+	"parameters": {
+		"bins":30,
+		"aes":{
+			"x":"carat"
+		}
+	},
+	"output":"sample_img/output_geomhistogram.svg"
+}

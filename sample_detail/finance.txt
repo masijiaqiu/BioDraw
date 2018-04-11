@@ -1,0 +1,12 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+A candlestick chart is a style of financial chart used to describe price movements of a security, derivative, or currency. 
+"""
+"title"=[string] (Set a title of the current axes.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"width"=0.8[float](Set the width of two bars.)
+"colorup"="red"[any matplotlib color](Set the color of the lines where close >= open.)
+"colordown"="black"[any matplotlib color](Set the color of the lines where close < open.)
+"rotation"=45[ angle in degrees | ‘vertical’ | ‘horizontal’ ](Set the rotation angle of x coordinate.)
+"horizontalalignment"="right"["center"|"right"|"left"](Set the horizontal alignment of the text.)

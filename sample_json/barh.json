@@ -1,0 +1,14 @@
+{
+	"chart_id":"2",
+	"data":"sample_data/bar.csv",
+	"parameters": {
+		"align":"center",
+		"title":"Our lab members' age",
+		"xlabel":"Name",
+		"alpha":0.5,
+		"ylabel":"age",
+		"color":"#108484",
+		"figsize":"(8,6)"
+	},
+	"output":"sample_img/barh.svg"
+}

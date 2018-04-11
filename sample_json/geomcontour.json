@@ -1,0 +1,12 @@
+{
+	"chart_id":"rggplot2geomcontour",
+	"data":"sample_data/faithfuld.csv",
+	"parameters": {
+		"aes":{
+			"x":"waiting",
+			"y":"eruptions",
+			"z":"density"
+		}
+	},
+	"output":"sample_img/output_geomcontour.svg"
+}

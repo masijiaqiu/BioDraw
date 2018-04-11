@@ -1,0 +1,24 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+boxplot is a convenient way of graphically depicting groups of numerical data through their quartiles.
+In box_horizontal, boxplot is horizontal. 
+
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"showmeans"="False"[True|False](If True, will toggle one the rendering of the means.)
+"meanline"="False"[True|False](If True (and showmeans is True), will try to render the mean as a line.)
+"whis"=1.5[float](Determine the reach of the whiskers past the first and third quartiles.)
+"widths"=0.5[float](Set the width of each box.)
+"showcaps"="False"[True|False](If True, will toggle one the rendering of the caps.)
+"vert"="True"[True|False](If True (default), makes the boxes vertical. If False, makes horizontal boxes.)
+"showbox"="True"[True|False](If True, will toggle one the rendering of box.)
+"box_linestyle"="-"['solid' | 'dashed', 'dashdot', 'dotted' | (offset, on-off-dash-seq) | '-' | '--' | '-.' | ':' | 'None' | ' ' | ''](Set the style of box outer margin line.)
+"box_linewidth"="2"[float](Set the width of width of box outer margin line.)
+"box_color"="black"[any matplotlib color](Set the color of box outer magin line.)
+"median_linestyle"="--"['solid' | 'dashed', 'dashdot', 'dotted' | (offset, on-off-dash-seq) | '-' | '--' | '-.' | ':' | 'None' | ' ' | ''](Set the style of box outer margin line.)
+"median_linewidth"="1.5"[float](Set the width of width of box outer margin line.)
+"median_color"="gray"[any matplotlib color](Set the color of box outer magin line.)

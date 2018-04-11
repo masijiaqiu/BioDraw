@@ -1,0 +1,16 @@
+{
+	"chart_id":"61",
+	"data":"sample_data/xcorr.csv",
+	"parameters": {
+		"title":"cross-correlation plot",
+		"xlabel":"x",
+		"ylabel":"y",
+		"color":"black",
+		"figsize":"(8,5)",
+		"lw":3,
+		"maxlags":21,
+		"usevlines":"True",
+		"normed":"True"
+	},
+	"output":"sample_img/xcorr.svg"
+}

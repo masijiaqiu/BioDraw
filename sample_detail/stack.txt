@@ -1,0 +1,11 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+A stacked area chart.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"color"="['#BDA09C','#0C5C4F','#AAD9A5']"[any matplotlib color](An array of color to set color of each line, without this parameter, color will be assigned randomly.)
+

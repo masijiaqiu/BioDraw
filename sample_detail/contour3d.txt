@@ -1,0 +1,8 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"zlabel"=[string] (Set the z axis label of the current axis.)"rstride"=10 [int](Set the stride of array row.)"cstride"=10 [int](Set the stride of array column.)"alpha"=1 [float] (Float 0.0 transparent through 1.0 opaque.)
+"color"="yellow" [string] (Any matplotlib color.)
+"

@@ -1,0 +1,14 @@
+{
+    "chart_id":"44",
+    "data":"sample_data/hist.csv",
+    "parameters": {
+        "title":"Our lab members' age",
+        "xlabel":"xlabel",
+        "ylabel":"ylabel",
+        "num_bin":30,
+        "normed":1,
+        "alpha":0.5,
+        "color":"red"
+    },
+    "output":"sample_img/hist_cumulated_reversed.svg"
+}

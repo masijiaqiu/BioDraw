@@ -1,0 +1,21 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+boxplot is a convenient way of graphically depicting groups of numerical data through their quartiles.
+box_meanpoint box includes an additional character to represent the mean of the data, shown as  a point which can be customed.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"whis"=1.5[float](Determine the reach of the whiskers past the first and third quartiles.)
+"widths"=0.5[float](Set the width of each box.)
+"showcaps"="False"[True|False](If True, will toggle one the rendering of the caps.)
+"vert"="True"[True|False](If True (default), makes the boxes vertical. If False, makes horizontal boxes.)
+"showbox"="True"[True|False](If True, will toggle one the rendering of box.)
+"median_linestyle"="--"['solid' | 'dashed', 'dashdot', 'dotted' | (offset, on-off-dash-seq) | '-' | '--' | '-.' | ':' | 'None' | ' ' | ''](Set the style of box outer margin line.)
+"median_linewidth"="1.5"[float](Set the width of width of box outer margin line.)
+"median_color"="gray"[any matplotlib color](Set the color of box outer magin line.)
+"mean_marker"="d"[A valid marker style](Set the style of meanpoint marker.)
+"mean_markerfacecolor"="firebrick"[any matplotlib color](Set the background color of mean point marker.)
+"mean_markeredgecolor"="black"[any matplotlib color](Set the edge color of mean point marker.)

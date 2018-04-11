@@ -1,0 +1,13 @@
+{
+    "chart_id":"55",
+    "data":"sample_data/age.csv",
+    "parameters": {
+        "title":"Comparison of ages",
+        "xlabel":"time",
+        "ylabel":"counts",
+        "lw":3,
+        "alpha":0.8,
+        "color":"['red','coral']"
+    },
+    "output":"sample_img/vline.svg"
+}

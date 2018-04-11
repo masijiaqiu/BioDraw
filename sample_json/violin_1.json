@@ -1,0 +1,11 @@
+{
+	"chart_id":"64",
+	"data":"sample_data/violin_1.csv",
+	"parameters": {
+		"title":"violin plot",
+		"x":"day",
+		"y":"total_bill",
+		"hue":"smoker"
+	},
+	"output":"sample_img/violin_1.svg"
+}

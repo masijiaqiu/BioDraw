@@ -1,0 +1,4 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+
+"title"=[string] (Set a title of the current figure.)

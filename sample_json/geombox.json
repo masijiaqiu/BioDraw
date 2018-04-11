@@ -1,0 +1,11 @@
+{
+	"chart_id":"rggplot2geombox",
+	"data":"sample_data/mpg.csv",
+	"parameters": {
+		"aes":{
+			"x":"class",
+			"y":"hwy"
+		}
+	},
+	"output":"sample_img/output_geombox.svg"
+}

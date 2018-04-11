@@ -1,0 +1,9 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"""
+The area of the concentric circle is proportional to the value it represents.
+"""
+"title"=[string] (Set a title of the current axes.)
+"figsize"="(6,6)" (Set he size of the figture, (x,y).)
+"legend"="False" ["True"|"False"] (Place a legend on the figture.)
+"percentage_legend"="False" ["True"|"False"] (Add the proportion of each data in legend.)

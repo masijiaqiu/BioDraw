@@ -1,0 +1,12 @@
+{
+    "chart_id":"52",
+    "data":"sample_data/bar.csv",
+    "parameters": {
+        "title":"Our Lab Member's Age",
+        "xlabel":"name",
+        "ylabel":"age",
+        "color":"['#D76475','#75625E','pink','darkblue','purple']",
+        "align":"center"
+    },
+    "output":"sample_img/bar_xkcd.svg"
+}

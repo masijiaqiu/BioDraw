@@ -1,0 +1,12 @@
+{
+	"chart_id":"60",
+	"data":"sample_data/stack.csv",
+	"parameters": {
+		"figsize":"(8,5)",
+		"title":"stackplot",
+		"xlabel":"x",
+		"ylabel":"y",
+		"color":"['#BDA09C','#0C5C4F','#AAD9A5']"
+	},
+	"output":"sample_img/stack.svg"
+}

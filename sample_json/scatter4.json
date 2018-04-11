@@ -1,0 +1,11 @@
+{
+	"chart_id":"76",
+	"data":"sample_data/scatter4.csv",
+	"parameters": {
+		"title":"scatter plot",
+		"x":"day",
+		"y":"total_bill",
+		"hue":"sex"
+	},
+	"output":"sample_img/scatter4.svg"
+}

@@ -1,0 +1,24 @@
+{
+	"chart_id":"34",
+	"data":"sample_data/box_horizontal.csv",
+	"parameters": {
+		"title":"horizontal box plot",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmeans":"True",
+		"meanline":"True",
+		"showcaps":"True",
+		"showbox":"True",
+		"box_linestyle":"-",
+		"box_linewidth":2,
+		"box_color":"navy",
+		"median_linestyle":"-",
+		"median_linewidth":1.5,
+		"median_color":"gold",
+		"vert":"False"
+	},
+	"output":"sample_img/box_horizontal.svg"
+}

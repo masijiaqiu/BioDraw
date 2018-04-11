@@ -1,0 +1,16 @@
+{
+    "chart_id":"39",
+    "data":"sample_data/hist.csv",
+    "parameters": {
+        "title":"Our lab members' age",
+        "xlabel":"Age",
+        "ylabel":"percentage",
+        "num_bin":30,
+        "normed":"True",
+        "rwidth":0.8,
+        "alpha":0.5,
+        "bins":"[5,20,30,35,40,50,120]",
+        "color":"purple"
+    },
+    "output":"sample_img/histh_unequalBins.svg"
+}

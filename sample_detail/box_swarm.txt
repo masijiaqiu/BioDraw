@@ -1,0 +1,14 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+* means varible is prerequiste.
+"""
+boxplot is a convenient way of graphically depicting groups of numerical data through their quartiles.
+A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. 
+This plot combines box plot with scatter plot.
+
+"""
+"title"="box&swarm plot"[string](Set title for figure.)
+*"x"=[name of variables in data](Inputs for plotting long-form data. Set the x-axis varible.)
+*"y"=[name of variables in data](Inputs for plotting long-form data. Set the y-axis varible.)
+"whis"=0.5[float](Proportion of the IQR past the low and high quartiles to extend the plot whiskers. Points outside this range will be identified as outliers.)
+"width"=0.7[float](Width of a full element when not using hue nesting, or width of all the elements for one level of the major grouping variable.)

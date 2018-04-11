@@ -1,0 +1,11 @@
+violin_horizontal# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the size of the figture, (x,y).)
+"widths"=0.5[float](0.0 transparent through 1.0 opaque.)
+"showmeans"=False[False|True](If True, will toggle rendering of the means.)
+"showmedians"="True"[False|True](If True, will toggle rendering of the medians.)
+"points"="5"[int](Defines the number of points to evaluate each of the gaussian kernel density estimations.)
+"showextrema"="True"[True|False](If True, will toggle rendering of the extrema.)

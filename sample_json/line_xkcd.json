@@ -1,0 +1,11 @@
+{
+    "chart_id":"53",
+    "data":"sample_data/line_xkcd.csv",
+    "parameters": {
+        "title":"Past GDP",
+        "xlabel":"year",
+        "ylabel":"GDP",
+        "color":"['purple','pink','magenta','red','crimson','coral']"
+    },
+    "output":"sample_img/line_xkcd.svg"
+}

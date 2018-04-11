@@ -1,0 +1,14 @@
+{
+	"chart_id":"30",
+	"data":"sample_data/bars3d.csv",
+	"parameters": {
+		"title":"Bars3d demo",
+		"xlabel":"X",
+		"ylabel":"Y",
+		"zlabel":"Z",
+		"alpha":0.7,
+		"colors":"['#108484', '#F7AF02', '#F29653']",
+		"figsize":"(8,7.2)"
+	},
+	"output":"sample_img/bars3d.svg"
+}

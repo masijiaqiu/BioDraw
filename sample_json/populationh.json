@@ -1,0 +1,11 @@
+{
+    "chart_id":"51",
+    "data":"sample_data/age.csv",
+    "parameters": {
+        "title":"Population",
+        "xlabel":"Counts",
+        "ylabel":"Age Groups",
+        "color":"['mediumpurple','lavender']"
+    },
+    "output":"sample_img/populationh.svg"
+}

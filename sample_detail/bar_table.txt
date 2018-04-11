@@ -1,0 +1,9 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+This is a graph showing the step lines of some data. for example, some data over time
+"""
+"title"=[string] (Set a title of the current axes.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+“color”=[string] (Setting the color for the cumulative step, this string must be written as “color”, for example: “[‘red’,’blue’,’green’]”. Optional.)
+“bar_width”=[float] (Set the width of each bar by setting the float,range form 0.0 to 1.0. Defaultly set to 0.4, optional.)

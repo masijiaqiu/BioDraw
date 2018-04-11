@@ -1,0 +1,16 @@
+{
+	"chart_id":"30",
+	"data":"sample_data/violinh.csv",
+	"parameters": {
+		"title":" Horizontal violin plot",
+		"xlabel":"scores",
+		"ylabel":"groupid",
+		"figsize":"(7,9)",
+		"widths":0.5,
+		"showmedians":"False",
+		"showmeans":"True",
+		"showextrema":"True",
+		"points":100
+	},
+	"output":"sample_img/violinh.svg"
+}

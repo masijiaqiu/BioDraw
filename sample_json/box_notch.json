@@ -1,0 +1,24 @@
+{
+	"chart_id":"35",
+	"data":"sample_data/box_notch.csv",
+	"parameters": {
+		"title":"box plot \n notch=True",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"whis":1.5,
+		"widths":0.5,
+		"showmeans":"False",
+		"showcaps":"True",
+		"showcaps":"True",
+		"showbox":"True",
+		"box_linestyle":"-",
+		"box_linewidth":1.5,
+		"box_color":"navy",
+		"median_linestyle":"--",
+		"median_linewidth":1.5,
+		"median_color":"orange",
+		"vert":"True"
+	},
+	"output":"sample_img/box_notch.svg"
+}

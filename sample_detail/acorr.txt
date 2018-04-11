@@ -1,0 +1,14 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+Autocorrelation, also known as serial correlation, is the correlation of a signal with itself at different points in time.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"lw"="2"[float](Set the width of width of box outer margin line.)
+"color"="black"[any matplotlib color](Set the color of lines.)
+"normed"="True"[True|False](if True, normalize the data by the autocorrelation at the 0-th lag.)
+"usevlines"="True"[True|False](if True, Axes.vlines is used to plot the vertical lines from the origin to the acorr. Otherwise, Axes.plot is used.)
+"maxlags"=10[int](number of lags to show. If None, will return all 2 * len(x) - 1 lags.)

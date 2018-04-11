@@ -1,0 +1,10 @@
+{
+	"chart_id":"80",
+	"data":"sample_data/regplot.csv",
+	"parameters": {
+		"title":"regplot",
+		"x":"total_bill",
+		"y":"tip"
+	},
+	"output":"sample_img/regplot.svg"
+}

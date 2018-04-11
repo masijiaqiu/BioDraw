@@ -1,0 +1,11 @@
+{
+	"chart_id":"rggplot2geomhex",
+	"data":"sample_data/diamonds.csv",
+	"parameters": {
+		"aes":{
+			"x":"carat",
+			"y":"price"
+		}
+	},
+	"output":"sample_img/output_geomhex.svg"
+}

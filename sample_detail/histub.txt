@@ -1,0 +1,10 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"alpha"=[float] (Float 0.0 transparent through 1.0 opaque.)
+“normed”=[“True”|”False”] (Set true to set the total area of bins to 1. In this diagram, to achieve the best viewing result for the Gauss curve, this parameter must be “True” or enter a positive number)
+“rwidth”=[float] (Float 0.0 to 1 to control the size for distinguishing each bin. The smaller this number is, the thinner the generated bin is, but the edge would not change.)
+“bins”=[string] (A list of the bin edges setting the data range of each bin.)
+“color”=[string] (Setting the color used. Written like: “[‘color1’,’color2’,’color3’]”etc. Make sure to write just the right number of colors in this column. Optional. )

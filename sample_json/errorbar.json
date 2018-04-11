@@ -1,0 +1,23 @@
+{
+	"chart_id":"12",
+	"data":"sample_data/errorbar.csv",
+	"parameters": {
+		"title":"Change of temperature in a day",
+		"xlabel":"time",
+		"ylabel":"temperature",
+		"xerr":0.5,
+		"yerr":0.8,
+		"color":"red",
+		"marker":"o",
+		"ms":8,
+		"ls":"dotted",
+		"lolims":"true",
+		"xlolims":"true",
+		"mec":"blue",
+		"capsize":2,
+		"capthick":2,
+		"barsabove":"true",
+		"linewidth":2
+	},
+	"output":"sample_img/errorbar.svg"
+}

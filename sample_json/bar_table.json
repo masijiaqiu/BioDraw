@@ -1,0 +1,11 @@
+{
+    "chart_id":"54",
+    "data":"sample_data/bargroup.csv",
+    "parameters": {
+        "title":"Past GDP",
+        "ylabel":"Sum of GDP",
+        "color":"['Indigo','purple','mediumpurple','mediumslateblue','lavender']",
+        "bar_width":0.4
+    },
+    "output":"sample_img/bar_table.svg"
+}

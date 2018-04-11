@@ -1,0 +1,10 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+* means varible is prerequiste.
+"""
+A violin plot plays a similar role as a box and whisker plot. It shows the distribution of quantitative data across several levels of one (or more) categorical variables such that those distributions can be compared. Unlike a box plot, in which all of the plot components correspond to actual datapoints, the violin plot features a kernel density estimation of the underlying distribution.
+"""
+"title"="violin plot"[string](Set title for figure.)
+*"x"=[name of variables in data](Inputs for plotting long-form data. Set the x-axis varible.)
+*"y"=[name of variables in data](Inputs for plotting long-form data. Set the y-axis varible.)
+*"hue"=[name of variables in data](Inputs for plotting long-form data. Classfy varivles by hue value.)

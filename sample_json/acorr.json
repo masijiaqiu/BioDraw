@@ -1,0 +1,13 @@
+{
+	"chart_id":"62",
+	"data":"sample_data/acorr.csv",
+	"parameters": {
+		"color":"black",
+		"figsize":"(8,5)",
+		"lw":3,
+		"maxlags":21,
+		"usevlines":"True",
+		"normed":"True"
+	},
+	"output":"sample_img/acorr.svg"
+}

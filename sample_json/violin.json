@@ -1,0 +1,15 @@
+{
+	"chart_id":"29",
+	"data":"sample_data/violin.csv",
+	"parameters": {
+		"title":"violin plot",
+		"xlabel":"month",
+		"ylabel":"income",
+		"figsize":"(8,5)",
+		"showmeans":"False",
+		"showmedians":"True",
+		"widths":0.5,
+		"points":100
+	},
+	"output":"sample_img/violin.svg"
+}

@@ -1,0 +1,9 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"legend"="False" ["True"|"False"]
+"figsize"="(8,6)" (Set he size of the figture, (x,y).)
+"alpha"=1 [float] (Float 0.0 transparent through 1.0 opaque.)
+"align":"center" ["edge"|"center"] (If ‘edge’, aligns bars by their left edges. If ‘center’, interpret the left argument as the coordinates of the centers of the bars. Optional.)

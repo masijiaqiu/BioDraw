@@ -1,0 +1,12 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+This is a graph showing horizontally aligned line and dots between two evenly distributed sets to compare the difference between them. This is only valid for two sets of data.
+""" 
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+“lw”=[integer] (Set the line weight of the graph, must be larger than 0. Optional)
+"alpha"=[float] (Float 0.0 transparent through 1.0 opaque.)
+“color”=[string] (Setting the color for the cumulative step, this string must be written as “color”, for example: “[‘red’,’blue’]”. Optional.)
+

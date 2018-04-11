@@ -1,0 +1,12 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+A line chart or line graph is a type of chart which displays information as a series of data points called 'markers' connected by straight line segments.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+"figsize"="(6,6)" (Set the width and height of the figture.)
+"linewidth"="3"[float](Set the width of lines.)
+"color"="['#F29653','#0C5C4F','#AAD9A5']"[any matplotlib color](An array to set color of each line, without this parameter, color will be assigned randomly.)
+

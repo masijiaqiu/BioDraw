@@ -1,0 +1,11 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting shold be string or float(int).
+* means varible is prerequiste.
+"""
+A scatter plot is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. 
+In this scatter plot, a nested categorical variable is added with the hue parameter.
+"""
+"title"="scatter plot"[string](Set title for figure.)
+*"x"=[name of variables in data](Inputs for plotting long-form data. Set the x-axis varible.)
+*"y"=[name of variables in data](Inputs for plotting long-form data. Set the y-axis varible.)
+*"hue"=[name of variables in data](Inputs for plotting long-form data. Classfy varivles by hue value.)

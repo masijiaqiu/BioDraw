@@ -1,0 +1,6 @@
+"parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+A barcode is an optical, machine-readable, representation of data.
+"""
+"title"=[string] (Set a title of the current axes.)

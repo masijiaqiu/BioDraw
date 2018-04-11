@@ -1,0 +1,16 @@
+{
+    "chart_id":"42",
+    "data":"sample_data/hist_multi.csv",
+    "parameters": {
+        "title":"Our lab members' age",
+        "xlabel":"percentage",
+        "ylabel":"Age",
+        "num_bin":15,
+        "normed":1,
+        "alpha":0.5,
+        "color":"['red','pink']",
+        "linestyle":"-",
+        "linewidth":3
+    },
+    "output":"sample_img/histh_stepline.svg"
+}

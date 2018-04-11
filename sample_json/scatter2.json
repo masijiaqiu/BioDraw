@@ -1,0 +1,10 @@
+{
+	"chart_id":"74",
+	"data":"sample_data/scatter2.csv",
+	"parameters": {
+		"title":"scatter plot",
+		"x":"day",
+		"y":"total_bill"
+	},
+	"output":"sample_img/scatter2.svg"
+}

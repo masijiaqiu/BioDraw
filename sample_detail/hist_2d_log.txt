@@ -1,0 +1,9 @@
+# "parameter-key"=default-value[optional-choice-if-available/data-type](description)
+# All the parameters setting should be string or float(int).
+"""
+This is a graph showing the a 2D histogram with two parameters x and y and representing the density using the color. The picture enclosed with a color bar showing the quantity each color represents. White represents no record existing at the part and color represents the number of existing records.
+"""
+"title"=[string] (Set a title of the current axes.)
+"xlabel"=[string] (Set the x axis label of the current axis.)
+"ylabel"=[string] (Set the y axis label of the current axis.)
+“number_of_bins”=[positive integer] (Set the number of the bins of the both axis to a certain integer. Defaultly set to 40.)
